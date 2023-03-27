@@ -99,7 +99,7 @@
 		{#if errorMsg}
 			<p class="text-error mt-2">{errorMsg}</p>
 		{:else if downloadLink}
-			<LinkOutput downloadLink={downloadLink}/>
+			<LinkOutput link={downloadLink}/>
 		{/if}
 	</section>
 </main>

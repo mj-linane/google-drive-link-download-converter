@@ -1,38 +1,41 @@
-# create-svelte
+# Google Drive Shareable Link To Download Link
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+This project is a tool built using Svelte to convert a Google Doc shareable link into a direct download link. The project consists of two files:
 
-## Creating a project
+- +page.svelte - This is the main page of the project. It contains the form to input the Google Doc shareable link and a component to display the converted download link.
+- LinkOutput.svelte - This is a component that displays the converted download link.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Usage
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+To use this tool, follow these simple steps:
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+1. Clone the repository or download the files.
+2. Install dependencies by running `npm install`.
+3. Run the project using `npm run dev`.
+4. Open http://localhost:5000 in your browser.
 
-## Developing
+Enter the Google Doc shareable link in the input field provided and click the "Convert" button.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+The tool will convert the link and display the direct download link below. If an error occurs during the conversion process, an error message will be displayed.
 
-```bash
-npm run dev
+## Technologies Used
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+- Svelte
+- TypeScript
+- HTML
+- CSS
+- Tailwind CSS
+- DaisyUI
 
-## Building
+## Contributing
 
-To create a production version of your app:
+If you want to contribute to this project, you can:
 
-```bash
-npm run build
-```
+1. Fork the repository.
+2. Create a new branch.
+3. Make your changes.
+4. Test your changes.
+5. Create a pull request.
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
